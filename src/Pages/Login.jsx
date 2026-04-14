@@ -42,10 +42,18 @@ const Login = () => {
           <p className="text-sm opacity-80  ">Forgot password?</p>
         </div>
 
-        <div className="flex justify-center mt-4">
-          <button className="bg-[#25889d] text-white py-2 px-44  rounded-lg hover:bg-[#0eaaae]">
+        <div className="flex justify-center mt-4 gap-6">
+          <button className="py-2 px-16 rounded-2xl bg-[rgb(37,136,157)] mt-4 text-white">
             Login
           </button>
+
+          <Link to="/dashboard">
+              <div className="py-2 px-16 rounded-2xl bg-[rgb(37,136,157)] mt-4 text-white">
+                <button>Next</button>
+              </div>
+            </Link>
+
+
         </div>
         <div className="flex justify-center gap-2 items-center mt-4">
           <p className="flex items-center opacity-75 text-sm gap-2 border border-white rounded-xl p-2">
@@ -56,6 +64,7 @@ const Login = () => {
             Continue with facebook
           </p>
         </div>
+        
         <p
           className=" pr-56 text-[12px] pt-4 pb-5 
         "

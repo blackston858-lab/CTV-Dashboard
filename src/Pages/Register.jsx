@@ -18,59 +18,66 @@ const Register = () => {
               Vista PMS
             </h1>
           </div>
+          <div className=" space-y-3">
+            {/* placeholder 1*/}
+            <div>
+              <h1 className="text-lg opacity-85 font-normal ">Full Name</h1>
+              <input
+                type="text"
+                placeholder="user name "
+                className="  p-2  outline-none w-96 rounded-2xl"
+              />
+            </div>
 
-          {/* placeholder 1*/}
-          <div className="pt-5">
-            <h1 className="text-[15px] text-gray-700">Full Name</h1>
-            <input
-              type="text"
-              placeholder="user name "
-              className="w-96 p-2 rounded-2xl"
-            />
+            {/* placeholder 2 */}
+            <div>
+              <h1 className="text-lg opacity-85 font-normal ">Email Address</h1>
+              <input
+                type="text"
+                placeholder="name@gmail.com"
+                className="  p-2  outline-none w-96 rounded-2xl"
+              />
+            </div>
+
+            <div>
+              <h1 className="text-lg opacity-85 font-normal ">Phone No</h1>
+              <input
+                type="text"
+                placeholder="+92"
+                className="  p-2  outline-none w-96 rounded-2xl"
+              />
+            </div>
+
+            <div>
+              <p className="text-lg  font-normal opacity-85">Password</p>
+              <input
+                className="  p-2 text-gray-600 outline-none w-96 rounded-2xl"
+                type="password"
+                placeholder=" enter password"
+              />
+            </div>
           </div>
 
-          {/* placeholder 2 */}
-          <div className="pt-5 ">
-            <h1 className="text-lg opacity-50 font-normal text-gray-700">Email Address</h1>
-            <input
-              type="text"
-              placeholder="name@gmail.com"
-              className="w-96 p-2 rounded-2xl"
-            />
-          </div>
-
-          <div className="pt-5 ">
-            <h1 className="text-lg opacity-50 font-normal text-gray-700">Phone No</h1>
-            <input
-              type="text"
-              placeholder="+92"
-            className="  p-2 mb-4 outline-none w-96 rounded-2xl"
-            />
-          </div>
-
-          <div className="pt-5 ">
-            
-           <p className="text-lg opacity-50 font-normal text-gray-700">Password</p>
-            <input
-            className="  p-2 mb-4 outline-none w-96 rounded-2xl"
-            type="password"
-            placeholder=" enter password"
-      
-          />
-          </div>
           {/*forget  */}
           <div className="pr-72 pt-3">
             <h1 className="text-[12px] text-gray-800">Forget Password?</h1>
           </div>
 
           {/* button */}
-          <div className="py-2 px-44 rounded-2xl bg-[rgb(37,136,157)] mt-4 text-white">
-            <button>Continue</button>
+          <div className="flex gap-6">
+            <div className="py-2 px-16 rounded-2xl bg-[rgb(37,136,157)] mt-4 text-white">
+              <button>Continue</button>
+            </div>
+            <Link to="/dashboard">
+              <div className="py-2 px-16 rounded-2xl bg-[rgb(37,136,157)] mt-4 text-white">
+                <button>Next</button>
+              </div>
+            </Link>
           </div>
 
           <h1 className="pr-56 text-[12px] pt-4 pb-5">
             Already have an account?{" "}
-            <Link to = "/">
+            <Link to="/">
               <span className="text-gray-500">Login</span>
             </Link>
           </h1>
