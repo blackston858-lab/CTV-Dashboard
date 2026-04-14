@@ -1,16 +1,20 @@
- import React from 'react'
-import Login from './Pages/Login'
-import Register from './Pages/Register'
- 
- const App = () => {
-   return (
-     <div>
-       <Login />
-        <Register/>
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 
-     </div>
-   )
- }
- 
- export default App
+const App = () => {
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+};
+
+export default App;
  
