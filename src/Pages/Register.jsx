@@ -31,7 +31,7 @@ const Register = () => {
 
           {/* placeholder 2 */}
           <div className="pt-5 ">
-            <h1 className="text-[15px] text-gray-700">Email Address</h1>
+            <h1 className="text-lg opacity-50 font-normal text-gray-700">Email Address</h1>
             <input
               type="text"
               placeholder="name@gmail.com"
@@ -40,11 +40,11 @@ const Register = () => {
           </div>
 
           <div className="pt-5 ">
-            <h1 className="text-[15px] text-gray-700">Phone No</h1>
+            <h1 className="text-lg opacity-50 font-normal text-gray-700">Phone No</h1>
             <input
               type="text"
               placeholder="+92"
-              className="w-96 p-2 rounded-2xl"
+            className="  p-2 mb-4 outline-none w-96 rounded-2xl"
             />
           </div>
 
