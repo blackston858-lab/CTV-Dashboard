@@ -4,8 +4,10 @@ import Login from '../Pages/Login'
 const Sidebar = () => {
   return (
     <div>
-      <Login/>
-    </div>
+      <div>
+        
+      </div>
+      </div>
   )
 }
 
