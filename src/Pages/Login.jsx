@@ -9,7 +9,7 @@ const Login = () => {
     // ye iss ke main div ha iss ka funtion login screen k bg ko color dena ha
     <div className="bg-[#d7e8f3] flex items-center justify-center h-screen w-screen">
       {/* Login Screen Background aur login card ka kaam kra ga ya ye card ke main div ha iss k andar ab sara content ayyy ga  */}
-      <div className=" border border-white rounded-3xl bg-[rgb(234,246,247)] px-16 py-16  ">
+      <div className=" border border-white rounded-3xl bg-[rgb(234,246,247)] px-14 py-14  ">
         {/*iss div main image aur text ayy ga   */}
         <div className="flex flex-1 flex-col items-center gap-10">
           <img
@@ -25,15 +25,15 @@ const Login = () => {
         </div>
 
         {/* email, password etc div */}
-        <div className="mt-4 space-y-2 ">
-          <p className="text-lg opacity-50 font-normal">Email</p>
+        <div className="mt-4 space-y-3 ">
+          <p className="text-lg opacity-80 font-normal">Email</p>
           <input
             className="w-96  rounded-lg p-2 mb-4 outline-none"
             type="email"
             placeholder="name@email.com"
           />
 
-          <p className="text-lg opacity-50 font-normal">Password</p>
+          <p className="text-lg opacity-80 font-normal">Password</p>
           <input
             className="w-full  rounded-lg p-2 mb-4 outline-none"
             type="password"
@@ -57,7 +57,7 @@ const Login = () => {
           </p>
         </div>
         <p
-          className=" pr-56 text-[12px] pt-4 pb-5 
+          className=" flex justify-center text-[12px] pt-2 
         "
         >
           Don't have an account
