@@ -14,6 +14,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route  path="/branch" element={<Branch_mangement/>}/>
+          
         </Routes>
       </BrowserRouter>
     </>
